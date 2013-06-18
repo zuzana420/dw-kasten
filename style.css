@@ -1,0 +1,50 @@
+
+.kasten_box a.kasten_link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  display: block;
+  background: __header_background__;
+  opacity: 0;
+  filter: alpha(opacity=00);
+}
+
+.kasten_box a.kasten_link:hover {
+  /*border: 1px solid #d33;*/
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.kasten_box {
+  position: relative;
+  border: 0px solid #ccc;
+  background: __naviheader_background__;
+  padding: 0.5em;
+  width:30%;
+  margin-right:2px;
+  margin-bottom:1em;
+  display: inline-table;
+  vertical-align: top;
+  z-index: 99999;
+}
+
+.kasten_box .kasten_content {
+  margin-left: 102px;
+  text-align: left;
+/*  z-index: 4;*/
+}
+
+.kasten_box .kasten_header {
+  font-weight: bold;
+/*  z-index: 4;*/
+}
+
+.kasten_box .kasten_content img.media {
+  width:100px;
+  float:left;
+  margin-left: -102px;
+/*  z-index: 4;*/
+}
