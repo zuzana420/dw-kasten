@@ -1,2 +1,2 @@
-dw-kasten-plugin
+dw-kasten
 ================
